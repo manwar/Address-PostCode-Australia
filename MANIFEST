@@ -1,0 +1,13 @@
+Changes
+lib/Address/PostCode/Australia.pm
+lib/Address/PostCode/Australia/Place.pm
+Makefile.PL
+SIGNATURE
+MANIFEST
+MANIFEST.SKIP
+README
+t/00-load.t
+t/01-address-postcode-australia.t
+t/02-address-postcode-australia-place.t
+t/manifest.t
+t/pod.t

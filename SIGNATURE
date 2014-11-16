@@ -1,0 +1,39 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.73.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 fdb7172a942d9b87ed3483a9ae381407e06de6f0 Changes
+SHA1 59b970f3ae94607ac3cdc7bcf231de3263131a38 MANIFEST
+SHA1 5f29cdcbfacb9c46ac155fff9844aceeb064aef1 MANIFEST.SKIP
+SHA1 52f3199444447fbddf05a32b5fe78e1167dd9161 Makefile.PL
+SHA1 b6099215003c576ec7d9d502532acba62a1470c0 README
+SHA1 0b3cdf7bbd45986e8f1abada4eb9af6b01f4ca11 lib/Address/PostCode/Australia.pm
+SHA1 b474ae54b35e00fb3d71bac00087bfc5cba81b2d lib/Address/PostCode/Australia/Place.pm
+SHA1 b046318a63593e7592fb0146685d306318437693 t/00-load.t
+SHA1 48d74adc15d73f80e38022fc82f6e41fb9be3962 t/01-address-postcode-australia.t
+SHA1 a16f6e0a621183d78c331352cd790545671d3ba9 t/02-address-postcode-australia-place.t
+SHA1 3e86d3e277d4233e55b8a4555bf6edf2dcdf7bd0 t/manifest.t
+SHA1 a572bbed348e70b106f01fa02fee8b8edd6735d5 t/pod.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJUZ/i3AAoJENoXJXWo7C/pH2MH/RepoOjTVWdOR5k92QRbRgPl
+XPfdk7XsKz3Q0UqLm/WMf2L433McAIVoiFiQiZn8Vjzr2qRue9+xNmunua8Iw/MB
+PhZPInjXr0FgHaf6IKE5++WvJLUgSHW9IqJgy8zaHCO/YMc5pDgELcRAZWHqURdS
+pt/r0jUrz5vfWoAdOl93BZIdVA+jtC4SANr0cqidnfxwlWTqkwDx6N/imCaVtnXN
+J08lgfFuuXt3QiQczrZUKw+1SnJb4YxmsmYB46MQPFWJm4kugfedLECqPKKJWcpM
+XMAh+D3685KnxLdpsh3232EuFIVCm1LgCXIFzagCr/KcnmulehEr3XmkEQEs6qk=
+=aX8a
+-----END PGP SIGNATURE-----
