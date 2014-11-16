@@ -1,4 +1,7 @@
 Revision history for Address-PostCode-Australia
 
+0.02  Sun Nov 16 01:20:28 2014
+      - Updated the copyright year details in the package Address::PostCode::Australia::Params.
+
 0.01  Sun Nov 16 01:00:01 2014
       - First version, released.
