@@ -1,5 +1,9 @@
 Revision history for Address-PostCode-Australia
 
+0.03  Mon Nov 17 20:08:00 2014
+      - Added missing package Address::PostCode::Australia::Params to the MANIFEST file.
+      - Updated manifest.t script to run even when the author is running the test.
+
 0.02  Sun Nov 16 01:20:28 2014
       - Updated the copyright year details in the package Address::PostCode::Australia::Params.
 

@@ -1,6 +1,7 @@
 Changes
 lib/Address/PostCode/Australia.pm
 lib/Address/PostCode/Australia/Place.pm
+lib/Address/PostCode/Australia/Params.pm
 Makefile.PL
 SIGNATURE
 MANIFEST

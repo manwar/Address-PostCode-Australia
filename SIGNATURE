@@ -14,26 +14,27 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 a508a680b447ab42621059b0d271a000a1ebaf2b Changes
-SHA1 59b970f3ae94607ac3cdc7bcf231de3263131a38 MANIFEST
+SHA1 23e41f5bff80a125ca9195650ee3e702fb0024f4 Changes
+SHA1 15c5872ec0f7829b3b01db31b46c2852fb81f5ad MANIFEST
 SHA1 5f29cdcbfacb9c46ac155fff9844aceeb064aef1 MANIFEST.SKIP
 SHA1 52f3199444447fbddf05a32b5fe78e1167dd9161 Makefile.PL
 SHA1 b6099215003c576ec7d9d502532acba62a1470c0 README
-SHA1 c7edbc1d3ef65c757d0215fe48c4aaa865b29bce lib/Address/PostCode/Australia.pm
-SHA1 60bfcff366eda87c8c641eed23dc3c6d3b8538a4 lib/Address/PostCode/Australia/Place.pm
+SHA1 7ec0fd5a0d8e6960933e24ab40bce0761c66b003 lib/Address/PostCode/Australia.pm
+SHA1 49420f258efb9ac8ac2d2107e8c84a073fd9b15d lib/Address/PostCode/Australia/Params.pm
+SHA1 06d07134969bb6b44b860a604a6151e1a9f40086 lib/Address/PostCode/Australia/Place.pm
 SHA1 b046318a63593e7592fb0146685d306318437693 t/00-load.t
 SHA1 48d74adc15d73f80e38022fc82f6e41fb9be3962 t/01-address-postcode-australia.t
 SHA1 a16f6e0a621183d78c331352cd790545671d3ba9 t/02-address-postcode-australia-place.t
-SHA1 3e86d3e277d4233e55b8a4555bf6edf2dcdf7bd0 t/manifest.t
+SHA1 4b98b347e51e58fdba54df88a1433f31d42c4ddd t/manifest.t
 SHA1 a572bbed348e70b106f01fa02fee8b8edd6735d5 t/pod.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1
 
-iQEcBAEBAgAGBQJUZ/uyAAoJENoXJXWo7C/paZoH/3nU7VrvYI75/xpewWbYR924
-wDnH2ntnpkg5wNkKY/UhL1Dl6rFpgpmfEaGGgMk+J+7X1mbLZFLmEaI/ioYyG6+M
-8HVFguiNt1GCZltFlwa1F8SfFvsMlEdy4apXAQw+AjF/3V1dvpNCfFQjCoV4v5Xu
-x79z9QeGx5/a1/C66lbKs0/IG+eAXWk5Fsv3ZHfXK/kQmfT3xwHdBldtDVpt/8hW
-PcGhNqFVuzKiR9QykaTPYFqAEqSTzBZRDWUdh+3xJVm32k6lEEvVEbCOYp/Bxwv4
-n2BLmDTcbnXTHyaW94zrmWe1C0L3AJLW9dSUeVs2eb5KaxCpisUpacWTNvjbNBY=
-=XfSF
+iQEcBAEBAgAGBQJUalZDAAoJENoXJXWo7C/p6a0H/1vi5zDEIr19ZWrjbl9ZH4zo
+ncLgu6Iala4OhZ5SE+Bx53QcSz+DSVL7n3h+QR3bX2v0heVgOaMl2cFRWrjf+BKH
+DucjSTyBXusZEQKLwofRCNqhth/PNrcv5M9W8NCcNNfGGjMY3sgpA5C8BC9jZkT1
+fZc0upUJqqQskm/98ijT/9qOEB3OA0JsJQAx6haMRKFct5pa+5dKN737nTQdpNoY
+9UpvbCacgcxXNckKXKuV5HmpYJ9lapoo2QI/KaxnuKrPQGLHgf+t4BRi0/Cr67xu
+xYW0oK/RcvB5uDrwrwDW3DV/muJSr0MAiPxBiY4+9ccAWiAsFmsXLIQDFNKozvk=
+=dKKu
 -----END PGP SIGNATURE-----
