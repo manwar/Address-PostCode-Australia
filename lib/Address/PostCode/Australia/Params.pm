@@ -1,6 +1,6 @@
 package Address::PostCode::Australia::Params;
 
-$Address::PostCode::Australia::Params::VERSION = '0.03';
+$Address::PostCode::Australia::Params::VERSION = '0.04';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Address::PostCode::Australia::Params - Placeholder for parameters for Address::P
 
 =head1 VERSION
 
-Version 0.03
+Version 0.04
 
 =cut
 
@@ -109,7 +109,7 @@ L<http://search.cpan.org/dist/Address-PostCode-Australia/>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright (C) 2014 Mohammad S Anwar.
+Copyright (C) 2014 - 2015 Mohammad S Anwar.
 
 This  program  is  free software; you can redistribute it and/or modify it under
 the  terms  of the the Artistic License (2.0). You may obtain a copy of the full

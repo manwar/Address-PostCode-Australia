@@ -1,5 +1,12 @@
 Revision history for Address-PostCode-Australia
 
+0.04  Fri Jan 16 12:20:00 2015
+      - Updated Makefile.PL to generate the key 'provides' for META file correctly.
+      - Added unit test to test META files.
+      - Added LICENSE file.
+      - Removed SIGNATURE file.
+      - Updated Copyright year information.
+
 0.03  Mon Nov 17 20:08:00 2014
       - Added missing package Address::PostCode::Australia::Params to the MANIFEST file.
       - Updated manifest.t script to run even when the author is running the test.
