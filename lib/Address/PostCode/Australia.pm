@@ -1,6 +1,6 @@
 package Address::PostCode::Australia;
 
-$Address::PostCode::Australia::VERSION = '0.04';
+$Address::PostCode::Australia::VERSION = '0.05';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Address::PostCode::Australia - Interface to the Australia PostCode.
 
 =head1 VERSION
 
-Version 0.04
+Version 0.05
 
 =cut
 

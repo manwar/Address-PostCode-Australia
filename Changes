@@ -1,5 +1,8 @@
 Revision history for Address-PostCode-Australia
 
+0.05  Tue Mar 03 18:10:00 2015
+      - Upgraded to use Address::PostCode::UserAgent 0.04.
+
 0.04  Fri Jan 16 12:20:00 2015
       - Updated Makefile.PL to generate the key 'provides' for META file correctly.
       - Added unit test to test META files.
