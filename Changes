@@ -1,5 +1,10 @@
 Revision history for Address-PostCode-Australia
 
+0.06  Wed Mar 11 10:40:00 2015
+      - Added section SYNOPSIS to the package Address::PostCode::Australia.
+      - Updated description of the method details() in the pod document.
+      - Updated description of the methods provided by the package Address::PostCode::Australia::Place.
+
 0.05  Tue Mar 03 18:10:00 2015
       - Upgraded to use Address::PostCode::UserAgent 0.04.
 

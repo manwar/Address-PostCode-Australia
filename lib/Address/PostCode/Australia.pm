@@ -1,6 +1,6 @@
 package Address::PostCode::Australia;
 
-$Address::PostCode::Australia::VERSION = '0.05';
+$Address::PostCode::Australia::VERSION = '0.06';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Address::PostCode::Australia - Interface to the Australia PostCode.
 
 =head1 VERSION
 
-Version 0.05
+Version 0.06
 
 =cut
 
@@ -32,6 +32,19 @@ Interface to the API provided by L<AusPost|http://auspost.com.au>.
 
 To use the API, you would need auth key, which you can get it L<here|https://developers.auspost.com.au/apis/pacpcs-registration>.
 
+=head1 SYNOPSIS
+
+    use strict; use warnings;
+    use Address::PostCode::Australia;
+
+    my $auth_key = 'Your Auth Key';
+    my $postcode = 3002;
+    my $address  = Address::PostCode::Australia->new({ auth_key => $auth_key });
+    my $places   = $address->details({ postcode => $postcode });
+
+    print "Location: ", $places->[0]->location, "\n";
+    print "State   : ", $places->[0]->state,    "\n";
+
 =head1 CONSTRUCTOR
 
 The only parameter requires is the auth key.
@@ -42,31 +55,20 @@ The only parameter requires is the auth key.
     my $auth_key = 'Your Auth Key';
     my $address  = Address::PostCode::Australia->new({ auth_key => $auth_key });
 
-=head2 details()
+=head2 details(\%params)
 
-It returns ref  to  list of object of type L<Address::PostCode::Australia::Place>
+It returns ref  to list of objects of type L<Address::PostCode::Australia::Place>
 on success. The parameters requires are list below:
 
-    +----------+-------------------------------------------------+
-    | Name     | Description                                     |
-    +----------+-------------------------------------------------+
-    | postcode | Mandatory parameter unless location is passed.  |
-    |          |                                                 |
-    | location | Mandatory paramerer unless postcode is passed.  |
-    |          |                                                 |
-    | state    | Optional parameter.                             |
-    +----------+-------------------------------------------------+
-
-    use strict; use warnings;
-    use Address::PostCode::Australia;
-
-    my $auth_key = 'Your Auth Key';
-    my $postcode = 3002;
-    my $address  = Address::PostCode::Australia->new({ auth_key => $auth_key });
-    my $places   = $address->details({ postcode => $postcode });
-
-    print "Location : ", $places->[0]->location, "\n";
-    print "State    : ", $places->[0]->state,    "\n";
+    +----------+----------------------------------------------------------------+
+    | Name     | Description                                                    |
+    +----------+----------------------------------------------------------------+
+    | postcode | Mandatory parameter unless location is passed.                 |
+    |          |                                                                |
+    | location | Mandatory paramerer unless postcode is passed.                 |
+    |          |                                                                |
+    | state    | Optional parameter.                                            |
+    +----------+----------------------------------------------------------------+
 
 =cut
 
@@ -90,6 +92,10 @@ sub details {
 
     return $places;
 }
+
+#
+#
+# PRIVATE METHODS
 
 sub _get_url {
     my ($keys, $values) = @_;
@@ -161,8 +167,8 @@ L<http://search.cpan.org/dist/Address-PostCode-Australia/>
 
 Copyright (C) 2014 - 2015 Mohammad S Anwar.
 
-This  program  is  free software; you can redistribute it and/or modify it under
-the  terms  of the the Artistic License (2.0). You may obtain a copy of the full
+This program  is  free software; you can redistribute it and / or modify it under
+the  terms  of the the Artistic License (2.0). You may obtain  a copy of the full
 license at:
 
 L<http://www.perlfoundation.org/artistic_license_2_0>

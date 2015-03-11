@@ -1,6 +1,6 @@
 package Address::PostCode::Australia::Place;
 
-$Address::PostCode::Australia::Place::VERSION = '0.05';
+$Address::PostCode::Australia::Place::VERSION = '0.06';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Address::PostCode::Australia::Place - Placeholder for 'place' for Address::PostC
 
 =head1 VERSION
 
-Version 0.05
+Version 0.06
 
 =cut
 
@@ -26,21 +26,40 @@ has 'longitude' => (is => 'ro');
 has 'postcode'  => (is => 'ro');
 has 'state'     => (is => 'ro');
 
+=head1 DESCRIPTION
+
+It holds the place detailed information as provided by API response. It  provides
+simple interface to fetch individual information on request.
+
 =head1 METHODS
 
 =head2 id()
 
+Returns the place id.
+
 =head2 category()
+
+Returns the place category.
 
 =head2 location()
 
+Returns the place location.
+
 =head2 latitude()
+
+Returns the place latitude.
 
 =head2 longitude()
 
+Returns the place longitude.
+
 =head2 postcode()
 
+Returns the place postcode.
+
 =head2 state()
+
+Returns the place state.
 
 =head1 AUTHOR
 
@@ -89,8 +108,8 @@ L<http://search.cpan.org/dist/Address-PostCode-Australia/>
 
 Copyright (C) 2014 - 2015 Mohammad S Anwar.
 
-This  program  is  free software; you can redistribute it and/or modify it under
-the  terms  of the the Artistic License (2.0). You may obtain a copy of the full
+This program  is  free software; you can redistribute it and / or modify it under
+the  terms  of the the Artistic License (2.0). You may obtain a  copy of the full
 license at:
 
 L<http://www.perlfoundation.org/artistic_license_2_0>
