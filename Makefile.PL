@@ -23,16 +23,16 @@ WriteMakefile(
         'JSON'             => 0,
         'Moo'              => 0,
         'namespace::clean' => 0,
-        'Address::PostCode::UserAgent' => '0.04',
+        'Address::PostCode::UserAgent' => '0.05',
     },
     dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean => { FILES => 'Address-PostCode-Australia-*' },
     (eval { ExtUtils::MakeMaker->VERSION(6.46) } ? (META_MERGE => {
         'meta-spec' => { version => 2 },
         provides    => {
-            'Address::PostCode::Australia'         => { file => 'lib/Address/PostCode/Australia.pm',        version => '0.06' },
-            'Address::PostCode::Australia::Place'  => { file => 'lib/Address/PostCode/Australia/Place.pm',  version => '0.06' },
-            'Address::PostCode::Australia::Params' => { file => 'lib/Address/PostCode/Australia/Params.pm', version => '0.06' },
+            'Address::PostCode::Australia'         => { file => 'lib/Address/PostCode/Australia.pm',        version => '0.07' },
+            'Address::PostCode::Australia::Place'  => { file => 'lib/Address/PostCode/Australia/Place.pm',  version => '0.07' },
+            'Address::PostCode::Australia::Params' => { file => 'lib/Address/PostCode/Australia/Params.pm', version => '0.07' },
         },
         resources => {
             repository => {

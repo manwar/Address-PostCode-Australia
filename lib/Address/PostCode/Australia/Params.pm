@@ -1,6 +1,6 @@
 package Address::PostCode::Australia::Params;
 
-$Address::PostCode::Australia::Params::VERSION = '0.06';
+$Address::PostCode::Australia::Params::VERSION = '0.07';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Address::PostCode::Australia::Params - Placeholder for parameters for Address::P
 
 =head1 VERSION
 
-Version 0.06
+Version 0.07
 
 =head1 DESCRIPTION
 
