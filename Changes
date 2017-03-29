@@ -1,4 +1,7 @@
-Revision history for Address-PostCode-Australia
+Revision history for Address::PostCode::Australia
+
+0.08  Wed Mar 29 15:45:00 2017
+      - Tidied up test scripts and removed "-T" switch.
 
 0.07  Wed May 06 13:35:00 2015
       - Upgraded to use Address::PostCode::UserAgent 0.05.

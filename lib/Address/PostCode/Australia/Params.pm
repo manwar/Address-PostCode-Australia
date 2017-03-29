@@ -1,6 +1,7 @@
 package Address::PostCode::Australia::Params;
 
-$Address::PostCode::Australia::Params::VERSION = '0.07';
+$Address::PostCode::Australia::Params::VERSION   = '0.08';
+$Address::PostCode::Australia::Params::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
 
@@ -8,7 +9,7 @@ Address::PostCode::Australia::Params - Placeholder for parameters for Address::P
 
 =head1 VERSION
 
-Version 0.07
+Version 0.08
 
 =head1 DESCRIPTION
 
@@ -73,7 +74,7 @@ Mohammad S Anwar, C<< <mohammad.anwar at yahoo.com> >>
 
 =head1 REPOSITORY
 
-L<https://github.com/Manwar/Address-PostCode-Australia>
+L<https://github.com/manwar/Address-PostCode-Australia>
 
 =head1 BUGS
 

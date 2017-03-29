@@ -1,6 +1,7 @@
 package Address::PostCode::Australia;
 
-$Address::PostCode::Australia::VERSION = '0.07';
+$Address::PostCode::Australia::VERSION   = '0.08';
+$Address::PostCode::Australia::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
 
@@ -8,7 +9,7 @@ Address::PostCode::Australia - Interface to the Australia PostCode.
 
 =head1 VERSION
 
-Version 0.07
+Version 0.08
 
 =cut
 
@@ -31,6 +32,8 @@ has 'auth_key' => (is => 'ro', required => 1);
 Interface to the API provided by L<AusPost|http://auspost.com.au>.
 
 To use the API, you would need auth key, which you can get it L<here|https://developers.auspost.com.au/apis/pacpcs-registration>.
+
+More details can be found L<here|https://developers.auspost.com.au/apis/pac/reference/postcode-search>.
 
 =head1 SYNOPSIS
 
@@ -126,7 +129,7 @@ Mohammad S Anwar, C<< <mohammad.anwar at yahoo.com> >>
 
 =head1 REPOSITORY
 
-L<https://github.com/Manwar/Address-PostCode-Australia>
+L<https://github.com/manwar/Address-PostCode-Australia>
 
 =head1 BUGS
 

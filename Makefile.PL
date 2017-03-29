@@ -30,15 +30,15 @@ WriteMakefile(
     (eval { ExtUtils::MakeMaker->VERSION(6.46) } ? (META_MERGE => {
         'meta-spec' => { version => 2 },
         provides    => {
-            'Address::PostCode::Australia'         => { file => 'lib/Address/PostCode/Australia.pm',        version => '0.07' },
-            'Address::PostCode::Australia::Place'  => { file => 'lib/Address/PostCode/Australia/Place.pm',  version => '0.07' },
-            'Address::PostCode::Australia::Params' => { file => 'lib/Address/PostCode/Australia/Params.pm', version => '0.07' },
+            'Address::PostCode::Australia'         => { file => 'lib/Address/PostCode/Australia.pm',        version => '0.08' },
+            'Address::PostCode::Australia::Place'  => { file => 'lib/Address/PostCode/Australia/Place.pm',  version => '0.08' },
+            'Address::PostCode::Australia::Params' => { file => 'lib/Address/PostCode/Australia/Params.pm', version => '0.08' },
         },
         resources => {
             repository => {
                 type => 'git',
-                url  => 'https://github.com/Manwar/Address-PostCode-Australia.git',
-                web  => 'https://github.com/Manwar/Address-PostCode-Australia',
+                url  => 'https://github.com/manwar/Address-PostCode-Australia.git',
+                web  => 'https://github.com/manwar/Address-PostCode-Australia',
             },
         }})
      : ()
